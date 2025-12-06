@@ -107,7 +107,7 @@ API에 필터 기능이 없기 때문에 **클라이언트 측 필터링(Client-
 
 ---
 
-# 🇰🇷 Korean Version
+🇰🇷 Korean Version
 
 ## 📌 프로젝트 개요
 이 프로젝트는 React 기반의 **복지 서비스 검색 웹 애플리케이션(SPA)** 입니다.  

@@ -10,6 +10,7 @@ const fields = [
   { value: "생애주기", label: "생애주기" },
 ];
 
+// 검색 창 구현 
 function SearchForm({ onSearch }) {
   const [field, setField] = useState("사업명");
   const [keyword, setKeyword] = useState("");

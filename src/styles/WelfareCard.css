@@ -1,0 +1,89 @@
+/* 카드 전체 */
+.welfare-card {
+  background: #FFF8DE;
+  border: 1px solid #AAC4F5;
+  border-radius: 18px;
+  padding: 20px 22px;
+  margin-bottom: 20px;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.07);
+  transition: all 0.25s ease;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.welfare-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* 제목 (사업명) */
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #4a4a4a;
+}
+
+/* 기관명 */
+.card-org {
+  font-size: 15px;
+  color: #6a6a6a;
+  margin-bottom: 15px;
+}
+
+/* 내용 영역 */
+.card-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.card-content.expanded {
+  max-height: 800px; /* 충분히 크게 */
+  opacity: 1;
+  margin-top: 12px;
+}
+
+/* 내용 텍스트 */
+.card-content p {
+  margin: 6px 0;
+  font-size: 15px;
+  color: #555;
+}
+
+.card-content strong {
+  color: #8CA9FF;
+  font-weight: 600;
+}
+
+/* 더보기 버튼 */
+.expand-btn {
+  width: 100%;
+  margin-top: 18px;
+  background: #AAC4F5;
+  color: white;
+  padding: 12px 0;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.expand-btn:hover {
+  background: #8CA9FF;
+  font-family: 'ChangwonDangamRounded', sans-serif;
+}
+
+.expand-btn:active {
+  background: #7F96FF;
+  font-family: 'ChangwonDangamRounded', sans-serif;
+}
+
+.expand-btn {
+  font-family: 'ChangwonDangamRounded', sans-serif;
+}
+

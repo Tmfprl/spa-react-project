@@ -1,0 +1,46 @@
+/* === 전체 페이지 스타일 === */
+.search-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: #FFF8DE;
+  min-height: 100vh;
+  font-family: "Pretendard", sans-serif;
+}
+
+/* 검색 중 표시 */
+.loading-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #8CA9FF;
+}
+
+/* 결과 없음 */
+.no-results {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  color: #8CA9FF;
+  background: #FFF2C6;
+  border-radius: 16px;
+  font-size: 18px;
+}
+
+/* === 결과 카드 리스트 컨테이너 === */
+.results-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* 스크롤이 길어질 때 가운데 정렬 유지 */
+.results-container > * {
+  width: 100%;
+}
+
+.search-page {
+  font-family: 'ChangwonDangamRounded', sans-serif;
+}
+

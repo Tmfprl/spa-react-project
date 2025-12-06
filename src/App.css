@@ -1,0 +1,20 @@
+.app-container {
+  width: 100%;
+  max-width: 900px; /* 전체 컨텐츠 폭 고정 */
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.app-title {
+  font-family: 'Cafe24Surround', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #8CA9FF;       /* 메인 파스텔 블루 */
+  margin-bottom: 30px;
+
+  background: #FFF2C6;
+  padding: 12px 20px;
+  border-radius: 16px;
+  display: inline-block;
+}

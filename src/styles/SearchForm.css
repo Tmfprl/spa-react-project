@@ -1,0 +1,81 @@
+/* === 검색 폼 전체 컨테이너 === */
+.search-form {
+  background: #FFF2C6;
+  padding: 24px 28px;
+  border-radius: 18px;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 25px;
+  font-family: 'ChangwonDangamRounded', sans-serif;
+}
+
+/* === 폼 내부의 라벨 그룹 === */
+.search-form-row {
+  display: flex;
+  gap: 14px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 필드 선택 (셀렉트 박스) */
+.search-select {
+  flex: 1;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #AAC4F5;
+  background: #FFF8DE;
+  font-size: 16px;
+  color: #4A4A4A;
+  outline: none;
+  font-family: 'ChangwonDangamRounded', sans-serif;
+  transition: all 0.2s ease;
+}
+
+.search-select:focus {
+  border-color: #8CA9FF;
+  box-shadow: 0 0 0 3px rgba(140, 169, 255, 0.3);
+}
+
+/* 검색 입력창 */
+.search-input {
+  flex: 2;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #AAC4F5;
+  background: #FFF8DE;
+  font-size: 16px;
+  color: #4A4A4A;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.search-input:focus {
+  border-color: #8CA9FF;
+  box-shadow: 0 0 0 3px rgba(140, 169, 255, 0.3);
+}
+
+/* === 검색 버튼 === */
+.search-button {
+  font-family: 'ChangwonDangamRounded', sans-serif;
+  width: 100%;
+  background: #AAC4F5;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 14px 0;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  margin-top: 5px;
+}
+
+.search-button:hover {
+  background: #8CA9FF;
+}
+
+.search-button:active {
+  background: #7F9AFF;
+}

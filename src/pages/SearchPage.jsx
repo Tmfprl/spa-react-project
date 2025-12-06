@@ -7,7 +7,7 @@ import "../styles/SearchPage.css";
 function SearchPage() {
   const [data, setData] = useState([]);         // API 전체 데이터 저장
   const [results, setResults] = useState([]);   // 필터링된 결과
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);// 로딩 중 구현
 
   // 🔥 1) 페이지 최초 로드시 전체 데이터 불러오기
   useEffect(() => {
